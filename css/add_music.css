@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.add_music_form_container{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #121212;
+    padding: 80px;
+}
+.add_music_form_heading{
+    color: #bfbfbf;
+    font-size: 35px;
+    font-family: "STIX Two Text", serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.add_music_form_inputs{
+    gap: 32px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.add_music_forms{
+    gap: 8px;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+.add_music_forms_label{
+    font-size: 22px;
+    line-height: 1.5;
+    fill: #bfbfbf;
+    color: #bfbfbf;
+}
+.add_music_forms_input{
+    width: 100%;
+    background: transparent;
+    color: #bfbfbf;
+    cursor: auto;
+    padding: 0.5rem 1rem;
+    align-self: stretch;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid #191818;
+}
+
+.add_music_buttons{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.add_music_button{
+    background: #bfbfbf;
+    color: #191818;
+
+}
+.signbutton{
+    width: 50%;
+    margin: 15px 0 15px 0;
+    height: 50px;
+    align-self: center;
+    transition: 0.3s;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    border: none;
+}
+
+
+

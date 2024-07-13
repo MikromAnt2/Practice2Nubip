@@ -144,7 +144,7 @@ if (isset($_SESSION['user_id'])) {
     <div class="music_player_music-menu">
         <div class="music_player_music-menu_btns">
             <a href="#"button class="music_player_music-menu_next"><h3>Далі</h3></a>
-            <a href="#"button class="music_player_music-menu_text"><h3>Текст</h3></a>
+            <a href="#"button class="music_player_music-menu_text" id='idk'><h3>Текст</h3></a>
             <a href="#"button class="music_player_music-menu_same"><h3>Схожі</h3></a>
         </div>
         <div class="music_player_music-menu_next_song_container">
@@ -207,7 +207,15 @@ if (isset($_SESSION['user_id'])) {
             this.window.open('form/playlists.php');
         });
     });
-
+  const idkBtn = document.getElementById('idk');
+    idkBtn.addEventListener('click', ()=>{
+        window.open('index.php');
+    })
+    Playlist.forEach(playlist => {
+        playlist.addEventListener("click", () => {
+            this.window.open('form/playlists.php');
+        });
+    });
 </script>
 </body>
 </html>
